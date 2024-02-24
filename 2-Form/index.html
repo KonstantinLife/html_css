@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="/css/1.css" /> -->
+    <title>Form Registration</title>
+  </head>
+  <body>
+    <main>
+      <form action="#">
+        <fieldset>
+          <legend><strong>Региcтрация</strong></legend>
+          <p>
+            Уже есть аккаунт?
+            <a href="https://app.purpleschool.ru/auth/register">Войти</a>
+          </p>
+          <div>
+            <input
+              type="text"
+              name="company"
+              id="company"
+              placeholder="Моя компания"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Имя"
+              required
+            />
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Фамилия"
+            />
+          </div>
+          <input type="email" name="email" placeholder="E-mail" required />
+          <div>
+            <button>Зарегистироваться <img src="" alt="Стрелка" /></button>
+          </div>
+          <input type="checkbox" id="check" required />
+          <label for="check"
+            >Я прочитал и принимаю <a href="#">Условия использования</a></label
+          >
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
