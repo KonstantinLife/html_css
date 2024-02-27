@@ -1,0 +1,91 @@
+.body {
+  width: 1440px;
+  height: 1516px;
+  background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+nav a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.search {
+  border-radius: 100px;
+  width: 224px;
+  height: 40px;
+  background: rgba(31, 41, 55, 0.6);
+  opacity: 0.6;
+}
+
+.name_1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.h1_name {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 158%;
+  text-align: center;
+  color: #fff;
+}
+
+.nameAuthor {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: #fff;
+}
+
+.work {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.name_razrab {
+  width: 214px;
+  height: 53px;
+  margin: 30px 586px 28px 640px;
+}
+
+.img_1 {
+  border-radius: 5px;
+  width: 896px;
+  height: 594px;
+}
+
+.about {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #fff;
+}
+
+.copy {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  color: #fff;
+  opacity: 0.6;
+}

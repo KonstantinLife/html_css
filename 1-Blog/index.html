@@ -5,32 +5,38 @@
     <meta name="description" content="PurpleSchool HTML+CSS course" />
     <meta name="Nataliya" content="Purple" />
     <meta name="keywords" content="Html, Css, Course" />
+    <link rel="stylesheet" href="./css/1.css" />
+
     <title>My Blog</title>
   </head>
-  <body>
+  <body class="body">
     <header>
       <p>
-        <a href="#"><span>B</span> Мой Блог</a>
+        <a href="#" class="title"><span>B</span> Мой Блог</a>
       </p>
-      <nav>
+      <nav class="nav_menu">
         <ul>
           <li><a href="#">HTML и CSS</a></li>
           <li><a href="#">Frontend</a></li>
           <li><a href="#">Backend</a></li>
-          <li><input type="search" name="" id="" /></li>
+          <li><input type="search" name="" id="" class="search" /></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <p>Frontend &bull; 12 мая 2024</p>
-        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-        <figure><img src="./images/1.png" alt="Фото Разработчика" /></figure>
-        <p>Наталия Васильевна</p>
-        <p>Разработчик</p>
-        <figure><img src="./images/2.png" alt="PC" /></figure>
+      <section class="name_razrab">
+        <p class="name_1">Frontend &bull; 12 мая 2024</p>
+        <h1 class="h1_name">
+          Теория цвета - Как цвет влияет на поведение потребителей
+        </h1>
+        <figure>
+          <img src="./images/1.png" alt="Фото Разработчика" />
+        </figure>
+        <p class="nameAuthor">Наталия Васильевна</p>
+        <p class="work">Разработчик</p>
+        <figure><img src="./images/2.png" alt="PC" class="img_1" /></figure>
       </section>
-      <section>
+      <section class="about">
         <p>
           Теория цвета — это особенности эмоционального восприятия человеком тех
           или иных цветовых решений. Цвета и различные их комбинации влияют на
@@ -51,6 +57,6 @@
         </p>
       </section>
     </main>
-    <footer>Все права защищены (&copy;) 2024</footer>
+    <footer class="copy">Все права защищены (&copy;) 2024</footer>
   </body>
 </html>
