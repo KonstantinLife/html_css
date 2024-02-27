@@ -1,0 +1,51 @@
+main {
+}
+
+form {
+  background: #fffefe;
+  font-family: "Open Sans", sans-serif;
+}
+
+legend {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #666;
+}
+
+.company {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+input {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999;
+  background: #f5f5f5;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  background: #089fe0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.ch {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
